@@ -14,9 +14,18 @@ android {
         versionName "1.0"
     }
 
-    buildTypes{
-        debug{
+    flavorDimensions "default"
+
+    buildTypes {
+        debug
+    }
+
+    productFlavors {
+        bbc_news {
             buildConfigField "String", "SOURCE", "\"bbc-news\""
+        }
+        other_source {
+            buildConfigField "String", "SOURCE", "\"abc-news\""
         }
     }
 }
