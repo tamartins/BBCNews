@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- base service -->
+    <dimen name="height_base_service_loader">50dp</dimen>
+    <dimen name="width_base_service_loader">50dp</dimen>
+
+    <!-- News Item -->
+    <dimen name="height_item_news_image">100dp</dimen>
+    <dimen name="width_item_news_image">100dp</dimen>
+</resources>
