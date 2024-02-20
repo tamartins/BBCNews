@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">BBCNews</string>
+    <string name="error_msg_fingerprint">Login Error</string>
 </resources>
